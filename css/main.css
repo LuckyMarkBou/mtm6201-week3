@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  }
+  
+  .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav ul li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .main-nav ul li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .main-nav ul li a:hover {
+    background-color: #ddd;
+  }
+  
+  .intro p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .owner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .owner ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .owner ul li {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-section {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+  }
+  
+  .contact-section textarea {
+    resize: vertical;
+  }
+  
+  .contact-section button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .contact-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
